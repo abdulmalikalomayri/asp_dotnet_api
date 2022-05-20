@@ -9,6 +9,8 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<DbCrudContext>( options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("DbCrud")));
 
+builder.Services.AddCoreAdmin();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -28,6 +30,8 @@ app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Employee}/{action=Index}/{id?}");
+
+app.UseCoreAdminCustomUrl("mysuperadminpanel");
 
 app.Run();

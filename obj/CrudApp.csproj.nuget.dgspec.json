@@ -40,6 +40,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AdminLTE": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "CoreAdmin": {
+              "target": "Package",
+              "version": "[2.6.2, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[6.0.4, )"

@@ -266,3 +266,5 @@ C:\Users\PCD\source\repos\CrudApp\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysi
 C:\Users\PCD\source\repos\CrudApp\bin\Debug\net6.0\runtimes\win-arm\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\PCD\source\repos\CrudApp\bin\Debug\net6.0\runtimes\win-arm64\lib\net6.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\PCD\source\repos\CrudApp\obj\Debug\net6.0\CrudApp.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\PCD\source\repos\CrudApp\bin\Debug\net6.0\DotNetEd.CoreAdmin.dll
+C:\Users\PCD\source\repos\CrudApp\bin\Debug\net6.0\Mvc.Grid.Core.dll
