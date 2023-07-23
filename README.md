@@ -1,4 +1,11 @@
-# Simple Crud Application using ASP DotNet Entity Framework
+# ASP DotNet Web API Entity Framework
 
-Simple ASP.Net EF Core CRUD APP 
-to visit my super admin panel template got to https://localhost/mysuperadminpanel
+# Feature
+* Authentication JWT with refresh token + Roles
+* CRUD example
+* Relationships One to One
+* Relationships One to Many
+* Relationships Many to Many
+* DTO
+* Repository
+* Swagger 
